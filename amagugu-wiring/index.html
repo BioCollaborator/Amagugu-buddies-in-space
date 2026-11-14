@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Amagugu Buddies in Space</title>
+<style>
+body{font-family:system-ui;background:#0b1026;color:#fff;margin:0;padding:20px;text-align:center}
+h1{font-size:2rem}.sub{opacity:.8}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;max-width:800px;margin:20px auto}
+.card{background:#fff;color:#111;border-radius:16px;padding:14px;cursor:pointer}
+.card b{display:block}.card span{font-size:.85rem;opacity:.7}
+#story{background:#fff;color:#111;border-radius:16px;max-width:600px;margin:20px auto;padding:20px;display:none;text-align:left}
+button{background:#ffcf40;border:0;border-radius:12px;padding:12px 18px;font-size:1rem;cursor:pointer;margin:5px}
+.quiz button{display:block;width:100%;margin:6px 0;background:#eef}
+</style>
+</head>
+<body>
+<h1>🌙 Amagugu Buddies in Space 🔴</h1>
+<p class="sub">Amagugu means treasures! Our space treasures, not forgotten. Pick a buddy (8-11)</p>
+<div>
+<button onclick="filter='All';render()">All</button>
+<button onclick="filter='Moon';render()">🌙 Moon</button>
+<button onclick="filter='Mars';render()">🔴 Mars</button>
+<button onclick="filter='Deep Space';render()">✨ Deep</button>
+<button onclick="speak(currentStory)">🔊 Read aloud</button>
+</div>
+<div class="grid" id="grid"></div>
+<div id="story"></div>
+<script>
+let filter='All', buddies=[], currentStory='';
+async function load(){
+  const r = await fetch('kid-stories.json'); const j = await r.json();
+  buddies = j.buddies; render();
+}
+function speak(t){ speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(t)); }
+function render(){
+  const g=document.getElementById('grid'); g.innerHTML='';
+  buddies.filter(b=>filter==='All'||b.planet===filter).forEach(b=>{
+    const d=document.createElement('div'); d.className='card';
+    d.innerHTML=`<b>${b.nickname}</b><span>${b.planet} • ${b.name}</span><br><small>⭐ ${b.quiz.sticker}</small>`;
+    d.onclick=()=>show(b); g.appendChild(d);
+  });
+}
+function show(b){
+  currentStory=b.voice_line+'. '+b.story_60sec;
+  document.getElementById('story').style.display='block';
+  document.getElementById('story').innerHTML=`
+    <h2>${b.nickname}</h2><p><i>"${b.voice_line}"</i></p><p>${b.story_60sec}</p>
+    <p>🦾 Power: <b>${b.superpower_simple}</b><br>🔬 Found: <b>${b.discovery_simple}</b></p>
+    <div class="quiz"><h3>${b.quiz.question}</h3>
+    ${b.quiz.options.map((o,i)=>`<button onclick="alert(${i===b.quiz.answer}?'Correct! You earned ${b.quiz.sticker}':'Try again! 💫')">${o}</button>`).join('')}
+    </div>`;
+  window.scrollTo(0,document.body.scrollHeight);
+}
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+{
+  "app": "Amagugu Buddies in Space - Ages 8-11",
+  "reading_level": "Grade 3, sentences <12 words",
+  "buddies": [
+    {
+      "name": "Eagle Descent Stage",
+      "nickname": "Eddie the Launch Pad",
+      "planet": "Moon",
+      "voice_line": "Hi! I'm Eddie! I stayed behind so my friends could fly home!",
+      "story_60sec": "Hello! I'm Eddie. I am the legs of Apollo 11. I carried Neil and Buzz down to the Moon in 1969. It was dusty and grey! My job was to stay still and be strong. When my friends went home, they used me like a launch pad. Boom! They flew up. I stayed. I am still there today. Quiet and proud.",
+      "superpower_simple": "Super-strong legs",
+      "discovery_simple": "People can land and take off from the Moon",
+      "quiz": { "question": "What did Eddie do?", "options": ["Stayed still to hold the lander and launch friends home", "Drove around the Moon", "Flew to Mars"], "answer": 0, "sticker": "🦵 Strong Legs Badge" }
+    },
+    {
+      "name": "Apollo 17 Moon Buggy",
+      "nickname": "Bouncy the Buggy",
+      "planet": "Moon",
+      "voice_line": "Vroom! No roads? No problem!",
+      "story_60sec": "Hey! I'm Bouncy! I'm a Moon car. I fold up like a chair! Astronauts unfolded me in 1972. I had no doors and no roads. Just bouncy grey dust! We drove far to find pretty rocks. We found orange soil! That told us the Moon once had hot volcanoes. I am parked now. My cameras look down at my wheels.",
+      "superpower_simple": "Fold-up electric car",
+      "discovery_simple": "Moon once had volcanoes",
+      "quiz": { "question": "What cool soil did Bouncy find?", "options": ["Orange soil from volcanoes", "Blue candy soil", "Green jelly soil"], "answer": 0, "sticker": "🚗 Moon Driver Badge" }
+    },
+    {
+      "name": "ALSEP Science Station",
+      "nickname": "Lizzie the Listener",
+      "planet": "Moon",
+      "voice_line": "Shhh... I am listening to the Moon...",
+      "story_60sec": "Shhh. I'm Lizzie. I have big ears. I listen for Moonquakes! Astronauts left me in 1971. I felt tiny shakes. I also have a mirror. Scientists shine lasers at me from Earth. The light bounces back! That tells us how far the Moon is. I was turned off in 1977. But my mirror still says hello!",
+      "superpower_simple": "Super ears + laser mirror",
+      "discovery_simple": "Moon shakes and we can measure its distance",
+      "quiz": { "question": "How does Lizzie still help?", "options": ["Her mirror bounces lasers from Earth", "She sings songs", "She drives"], "answer": 0, "sticker": "👂 Super Listener Badge" }
+    },
+    {
+      "name": "Surveyor 3",
+      "nickname": "Sid the Survivor",
+      "planet": "Moon",
+      "voice_line": "I waited and my friends came to visit!",
+      "story_60sec": "Hi! I'm Sid. I landed in 1967. No humans with me! Just me, a robot. My job was to touch the soil. Was it soft like snow? Would we sink? No! It was strong! That meant astronauts could come. Two years later, Apollo 12 landed nearby. They walked over and said hi! They took my camera home.",
+      "superpower_simple": "Scoop arms to touch soil",
+      "discovery_simple": "Moon dust can hold astronauts",
+      "quiz": { "question": "Why was Sid important?", "options": ["He proved astronauts would not sink", "He found aliens", "He flew home"], "answer": 0, "sticker": "🤖 Pioneer Badge" }
+    },
+    {
+      "name": "Sojourner",
+      "nickname": "Sojourner the Tiny Hero",
+      "planet": "Mars",
+      "voice_line": "Small but mighty! I went first!",
+      "story_60sec": "Hi! I'm Sojourner. I'm tiny! Like a skateboard! In 1997 I became the first rover on Mars. I rolled off my lander. Bump, bump over red rocks! I sniffed rocks with my science nose. I found round pebbles. Pebbles mean water once pushed them! I showed tiny rovers can do big work.",
+      "superpower_simple": "First tiny wheels on Mars",
+      "discovery_simple": "Water once flowed on Mars",
+      "quiz": { "question": "How big was Sojourner?", "options": ["As big as a skateboard", "As big as a bus", "As big as a house"], "answer": 0, "sticker": "⭐ First Hero Badge" }
+    },
+    {
+      "name": "Spirit",
+      "nickname": "Spirit the Climber",
+      "planet": "Mars",
+      "voice_line": "I climb! I never quit!",
+      "story_60sec": "Hello! I'm Spirit! I landed in 2004. I was supposed to live 90 days. I lived 6 years! I climbed hills with my six wheels. I got stuck in soft sand. Oh no! But I kept working from that spot. I found white silica. That means hot water was once here! I fell asleep in the cold winter of 2010.",
+      "superpower_simple": "Six climbing wheels",
+      "discovery_simple": "Mars was once warm and wet",
+      "quiz": { "question": "How long did Spirit live?", "options": ["6 years, not 90 days", "Only 1 day", "100 years"], "answer": 0, "sticker": "🧗 Never Quit Badge" }
+    },
+    {
+      "name": "Opportunity",
+      "nickname": "Oppy the Marathoner",
+      "planet": "Mars",
+      "voice_line": "Hi! I was supposed to live 90 days but lived 15 YEARS!",
+      "story_60sec": "Hi! I'm Oppy! Spirit is my twin sister! I landed in 2004. I loved to drive! I drove 45 kilometers. That is a whole marathon! My cameras saw rocks that only grow in water. So Mars was soggy long ago! Every year I sang Happy Birthday to myself. In 2018 a giant dust storm covered my sun panels. I fell asleep. My last message was: My battery is low.",
+      "superpower_simple": "Solar power + super cameras",
+      "discovery_simple": "Mars was soggy with water",
+      "quiz": { "question": "How far did Oppy drive?", "options": ["A full marathon, 45 km", "Around the block", "To the Moon"], "answer": 0, "sticker": "🏃 Marathon Badge" }
+    },
+    {
+      "name": "Viking 1",
+      "nickname": "Vicky the Photographer",
+      "planet": "Mars",
+      "voice_line": "Say cheese! First photo from Mars!",
+      "story_60sec": "Hello! I'm Vicky! I landed in 1976. I was the first to live on Mars! Click! I took the very first photo FROM Mars. Red rocks and pink sky! I had an arm to scoop soil. I tasted it for tiny life. We did not find life, but we learned a lot. I worked 6 years! Now I sleep in Chryse Planitia.",
+      "superpower_simple": "Camera + scoop arm",
+      "discovery_simple": "First Mars photos and soil tests",
+      "quiz": { "question": "What did Vicky do first?", "options": ["Took first photo FROM Mars", "Flew to Saturn", "Drove a buggy"], "answer": 0, "sticker": "📸 First Photo Badge" }
+    },
+    {
+      "name": "Viking 2",
+      "nickname": "Vinnie the Frost Finder",
+      "planet": "Mars",
+      "voice_line": "Brrr! Frost on Mars!",
+      "story_60sec": "Hi! I'm Vinnie! Vicky is my twin! I landed far north in 1976. It was very cold. I had a weather station. I felt wind and cold days. One morning I saw white frost! Frost on Mars! Like winter! I watched seasons change. I fell asleep in 1980. Cold but happy.",
+      "superpower_simple": "Weather station",
+      "discovery_simple": "Mars has frost and seasons",
+      "quiz": { "question": "What did Vinnie see?", "options": ["White frost on Mars", "Green trees", "Blue ocean"], "answer": 0, "sticker": "❄️ Frost Finder Badge" }
+    },
+    {
+      "name": "Phoenix",
+      "nickname": "Phoenix the Digger",
+      "planet": "Mars",
+      "voice_line": "Yum! Let me taste that soil!",
+      "story_60sec": "Hello! I'm Phoenix! I landed near the North Pole in 2008. Cold! I have a robot arm. Dig, dig! I scooped white ice. Real water ice! I put it in my tiny ovens to taste it. I saw snow fall from the sky! Snow on Mars! Winter came and I got too cold. I sleep under ice now.",
+      "superpower_simple": "Digging arm + tasting ovens",
+      "discovery_simple": "Water ice + snow on Mars",
+      "quiz": { "question": "What did Phoenix dig up?", "options": ["Real water ice", "Chocolate", "Gold coins"], "answer": 0, "sticker": "⛏️ Ice Digger Badge" }
+    },
+    {
+      "name": "InSight",
+      "nickname": "Innie the Listener",
+      "planet": "Mars",
+      "voice_line": "Shhh... Did you feel that rumble?",
+      "story_60sec": "Shhh. I'm Innie. I landed in 2018. I don't drive. I listen! I put my ear on the ground. I felt Mars shake! Rumble! I felt over 1300 Marsquakes! That told us Mars has a big liquid heart inside. Dust covered my sun panels. I fell asleep in 2022. Listen carefully. Can you feel it?",
+      "superpower_simple": "Super ear for quakes",
+      "discovery_simple": "Mars has a liquid core",
+      "quiz": { "question": "How many Marsquakes did Innie feel?", "options": ["Over 1300", "Only 2", "None"], "answer": 0, "sticker": "🌋 Quake Listener Badge" }
+    },
+    {
+      "name": "Ingenuity",
+      "nickname": "Ginny the Flyer",
+      "planet": "Mars",
+      "voice_line": "Wheee! I flew!",
+      "story_60sec": "Wheee! I'm Ginny! I'm a tiny helicopter! In 2021 I flew on Mars! The air is super thin. My blades had to spin super fast! First flight: up, hover, down! Everyone cheered! I flew 72 times! I helped my friend rover find paths. On my last flight my blade broke. I rest now. First flyer on another world!",
+      "superpower_simple": "Super-fast light blades",
+      "discovery_simple": "Flying is possible on Mars",
+      "quiz": { "question": "How many times did Ginny fly?", "options": ["72 times", "1 time only", "Never"], "answer": 0, "sticker": "🚁 First Flyer Badge" }
+    },
+    {
+      "name": "NEAR Shoemaker",
+      "nickname": "Narly the Hugger",
+      "planet": "Deep Space",
+      "voice_line": "I hug asteroids!",
+      "story_60sec": "Hello! I'm Narly. I visit asteroids! In 2001 I landed softly on Eros. Eros is a space rock! I took many photos. Eros is a pile of rubble. Not solid! That helps us protect Earth. I was not supposed to land, but I did it! Surprise! I still hug Eros as we drift around the Sun.",
+      "superpower_simple": "Patient mapping camera",
+      "discovery_simple": "Asteroids are rubble piles",
+      "quiz": { "question": "Where does Narly live?", "options": ["Hugging asteroid Eros", "On the Moon", "In the ocean"], "answer": 0, "sticker": "🪨 Asteroid Hugger Badge" }
+    },
+    {
+      "name": "Dawn",
+      "nickname": "Dawny the Double Explorer",
+      "planet": "Deep Space",
+      "voice_line": "I visited TWO worlds!",
+      "story_60sec": "Hi! I'm Dawny! I love road trips! I visited TWO worlds: Vesta then Ceres. No one else did that! I have an ion engine. It sips fuel like a straw! I saw a giant mountain and salty ice volcanoes on Ceres. In 2018 I ran out of fuel. I orbit Ceres forever. Silent and proud.",
+      "superpower_simple": "Ion engine that sips fuel",
+      "discovery_simple": "Ice volcanoes on Ceres",
+      "quiz": { "question": "How many worlds did Dawny visit?", "options": ["Two: Vesta and Ceres", "Zero", "Ten"], "answer": 0, "sticker": "🌌 Double Explorer Badge" }
+    },
+    {
+      "name": "Pioneer 10",
+      "nickname": "Pip the Trailblazer",
+      "planet": "Deep Space",
+      "voice_line": "I carry a postcard for aliens!",
+      "story_60sec": "Hello! I'm Pip! I launched in 1972. I was first to cross the asteroid belt. Scary rocks! I made it! Then I said hi to Jupiter! Click! Big photos! Now I drift far away. I carry a golden plaque. It has pictures of humans. If aliens find me, they will say hello! Bye bye!",
+      "superpower_simple": "Brave path + golden plaque",
+      "discovery_simple": "We can cross asteroid belt",
+      "quiz": { "question": "What does Pip carry?", "options": ["A golden hello for aliens", "A pizza", "A cat"], "answer": 0, "sticker": "👽 Star Postcard Badge" }
+    },
+    {
+      "name": "Pioneer 11",
+      "nickname": "Pippa the Second Star",
+      "planet": "Deep Space",
+      "voice_line": "Hi Saturn!",
+      "story_60sec": "Hi! I'm Pippa! Pip is my big brother! I launched in 1973. I visited Jupiter too. Then I flew farther! I was the FIRST to visit Saturn! Wow! Rings everywhere! I used planets like a slingshot to fling forward. Now I drift toward the stars. Far, far away.",
+      "superpower_simple": "Planet slingshot path",
+      "discovery_simple": "First close look at Saturn",
+      "quiz": { "question": "What was Pippa first to visit?", "options": ["Saturn up close", "The Moon", "The Sun"], "answer": 0, "sticker": "🪐 Saturn Pioneer Badge" }
+    },
+    {
+      "name": "Kepler",
+      "nickname": "Keppy the Star Counter",
+      "planet": "Deep Space",
+      "voice_line": "Look! Another new world!",
+      "story_60sec": "Hello! I'm Keppy! I count stars! From 2009 to 2018 I stared at stars. Blink! When a planet passes, the star gets a tiny bit dim. I count the blinks! I found over 2600 planets!Planets are everywhere! Some might be like Earth! I ran out of fuel. I drift now. Keep looking up!",
+      "superpower_simple": "Eye that sees star blinks",
+      "discovery_simple": "Thousands of new planets",
+      "quiz": { "question": "How does Keppy find planets?", "options": ["Sees tiny blinks when planets pass stars", "Hears them", "Smells them"], "answer": 0, "sticker": "🔭 Star Counter Badge" }
+    }
+  ]
+}
